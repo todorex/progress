@@ -3,7 +3,7 @@ this is the road to success
 
 
 ## boss xmy
-- [ ] java syntax (5)
+- [X] java syntax (5)
    - 2019.12.7-2019.12.13
 - [ ] database + jdbc (5)
    - 2019.12.15-2019.12.19
