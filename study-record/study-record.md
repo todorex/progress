@@ -1,7 +1,5 @@
 ## study-record
 
-<<<<<<< HEAD
- 
 Xmy  boss study life will be recorded here !
 
 ### 2019.12.7-2019.12.13 
@@ -37,27 +35,35 @@ Xmy  boss study life will be recorded here !
 **学习总结**：
 
 1. SQL语言：增 删 改 查（复杂查询）   
+
 2. 约束  
    1. 主键约束   
    2. 外键约束  
    3. 非空约束  
    4. 唯一约束  
+   
 3. case when  
+
 4. 事务隔离机制  
    1. read uncommitted
    2. read committed
    3. repeatable read
    4. serializable  
+   
 5. 存储引擎  
    1. innoDB
    2. MYISAM-只读  
+   
 6. 索引  
+
 7. 连接数据区
+
 8. JDBC的增删改查
+
 9. SQL的注入攻击
+
 10. JDBC事务 连接池
-11. 算法视频只看了4个
->>>>>>> temp
+
+**算法学习**: 
 
 
- 
