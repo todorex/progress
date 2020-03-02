@@ -11,10 +11,11 @@ import top.program.service.StudentService;
 public class userController {
     @Autowired
     private StudentService studentService;
+
     @RequestMapping(value = "/test")
 
-    public String testUser(@RequestBody Student student){
-    studentService.creatStudent(student);
+    public String testUser(@RequestBody Student student) {
+        studentService.creatStudent(student);
         return "user";
     }
 
@@ -23,10 +24,6 @@ public class userController {
 //    public String testUser() {
 //        return "user";//jsp的名称
 //    }
-
-
-
-
 
 
 ////网页面丢数据---请求转发
@@ -53,8 +50,6 @@ public class userController {
 //
 
 
-
-
 //请求后  后端重新获取前端返回的数据
     //方法1
 //@RequestMapping("/test/{id}/{name}")
@@ -78,22 +73,14 @@ public class userController {
 //}
 
 
-
-
-
 //json
 
 
-
-
-
-
-
-//拦截器
-@RequestMapping(value = "/demo")
-public String demoUser(){
-    return "demo";
-}
+    //拦截器
+    @RequestMapping(value = "/demo")
+    public String demoUser() {
+        return "demo";
+    }
 
 
 }
