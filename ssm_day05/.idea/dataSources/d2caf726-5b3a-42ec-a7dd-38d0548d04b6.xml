@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@127.0.0.1">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.17">
     <root id="1"/>
     <schema id="2" parent="1" name="awesome">
       <Current>1</Current>
-      <Visible>1</Visible>
     </schema>
     <schema id="3" parent="1" name="demo"/>
     <schema id="4" parent="1" name="ds_0"/>
@@ -21,42 +20,42 @@
     <table id="15" parent="2" name="users"/>
     <column id="16" parent="13" name="id">
       <Position>1</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="17" parent="13" name="user_id">
       <Position>2</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="18" parent="13" name="user_name">
       <Position>3</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="19" parent="13" name="user_image">
       <Position>4</Position>
-      <DataType>varchar(500)|0</DataType>
+      <DataType>varchar(500)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="20" parent="13" name="name">
       <Position>5</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="21" parent="13" name="summary">
       <Position>6</Position>
-      <DataType>varchar(200)|0</DataType>
+      <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="22" parent="13" name="content">
       <Position>7</Position>
-      <DataType>mediumtext|0</DataType>
+      <DataType>mediumtext|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="23" parent="13" name="created_at">
       <Position>8</Position>
-      <DataType>double|0</DataType>
+      <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <index id="24" parent="13" name="idx_created_at">
@@ -69,37 +68,37 @@
     </key>
     <column id="26" parent="14" name="id">
       <Position>1</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="27" parent="14" name="blog_id">
       <Position>2</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="28" parent="14" name="user_id">
       <Position>3</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="29" parent="14" name="user_name">
       <Position>4</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="30" parent="14" name="user_image">
       <Position>5</Position>
-      <DataType>varchar(500)|0</DataType>
+      <DataType>varchar(500)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="31" parent="14" name="content">
       <Position>6</Position>
-      <DataType>mediumtext|0</DataType>
+      <DataType>mediumtext|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="32" parent="14" name="created_at">
       <Position>7</Position>
-      <DataType>double|0</DataType>
+      <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <index id="33" parent="14" name="idx_created_at">
@@ -112,37 +111,37 @@
     </key>
     <column id="35" parent="15" name="id">
       <Position>1</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="36" parent="15" name="email">
       <Position>2</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="37" parent="15" name="passwd">
       <Position>3</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="38" parent="15" name="admin">
       <Position>4</Position>
-      <DataType>tinyint(1)|0</DataType>
+      <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="39" parent="15" name="name">
       <Position>5</Position>
-      <DataType>varchar(50)|0</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="40" parent="15" name="image">
       <Position>6</Position>
-      <DataType>varchar(500)|0</DataType>
+      <DataType>varchar(500)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="41" parent="15" name="created_at">
       <Position>7</Position>
-      <DataType>double|0</DataType>
+      <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <index id="42" parent="15" name="idx_created_at">

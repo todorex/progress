@@ -1,14 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE web-app PUBLIC
         "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
-<!--这个一定要有，还是是要用maven建立WebAPP了搞事情了-->
+<!--这个一定要有，还是不要用maven建立WebAPP了搞事情了-->
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1"
          metadata-complete="true">
+
 
     <!--加载Spring容器 告知spring-config.xml 所在的位置-->
     <context-param>
@@ -45,7 +47,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ssm-demo</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
 </web-app>

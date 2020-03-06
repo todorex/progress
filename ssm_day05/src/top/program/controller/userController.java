@@ -13,7 +13,6 @@ public class userController {
     private StudentService studentService;
 
     @RequestMapping(value = "/test")
-
     public String testUser(@RequestBody Student student) {
         studentService.creatStudent(student);
         return "user";

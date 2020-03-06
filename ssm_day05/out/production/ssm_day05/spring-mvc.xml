@@ -43,11 +43,11 @@
     </mvc:annotation-driven>
 
     <mvc:interceptors>
-<!--        <bean class="top.program.interceptor.SpringMVCInterceptor"/>-->
-        <mvc:interceptor>
-            <mvc:mapping path="/demo"/>
-            <bean class="top.program.interceptor.SpringMVCInterceptor"></bean>
-        </mvc:interceptor>
+        <bean class="top.program.interceptor.SpringMVCInterceptor"/>
+<!--        <mvc:interceptor>-->
+<!--            <mvc:mapping path="/demo"/>-->
+<!--            <bean class="top.program.interceptor.SpringMVCInterceptor"></bean>-->
+<!--        </mvc:interceptor>-->
     </mvc:interceptors>
 
 
